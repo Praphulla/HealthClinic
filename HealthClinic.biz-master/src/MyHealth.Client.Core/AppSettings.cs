@@ -2,7 +2,7 @@ namespace MyHealth.Client.Core
 {
 	public static class AppSettings
 	{
-        public static string ServerlUrl = "http://YOUR_WEB.azurewebsites.net/";
+        public static string ServerlUrl = "http://myhealthweb20160324011529.azurewebsites.net/";
 
         public static string MobileAPIUrl = "https://YOUR_WEB_MOBILE.azurewebsites.net";
 
