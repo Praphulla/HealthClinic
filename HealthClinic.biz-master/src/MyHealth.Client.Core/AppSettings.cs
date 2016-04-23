@@ -4,7 +4,7 @@ namespace MyHealth.Client.Core
 	{
         public static string ServerlUrl = "http://myhealthweb20160324011529.azurewebsites.net/";
 
-        public static string MobileAPIUrl = "https://YOUR_WEB_MOBILE.azurewebsites.net";
+        public static string MobileAPIUrl = "https://myhealthweb20160324011529.azurewebsites.net";
 
         public static int DefaultPatientId = YOUR_PATIENT_ID;
 
