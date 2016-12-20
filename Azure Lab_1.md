@@ -31,7 +31,7 @@ Since we already have the source code in the repo we could use the same
 for our Azure App Service deployment. You can also create your own app
 and try deploying the same.
 
- 1. Load the “01\_Demos\_ASPNET5.sln” from your Visual Studio and wait until the package restoration is complete. If any issues found, try the below workarounds-
+1. Load the “01\_Demos\_ASPNET5.sln” from your Visual Studio and wait until the package restoration is complete. If any issues found, try the below workarounds-
 
     1. Clean the solution and try to rebuild, which should work fine. Also
     make sure you have connected to the internet while restoring the
@@ -50,30 +50,29 @@ and try deploying the same.
 
     <img src="./media/image2.png" width="514" height="289" />
 
- 2. Right click on “MyHealth.Web” and select “publish”. You will see a new
+2. Right click on “MyHealth.Web” and select “publish”. You will see a new
     window automatically open to indicate that the resources will be created
     in Azure, which will host all application resources. Fill in the
     required information and make sure to change the type to Web App.
 
     <img src="./media/image3.png" width="624" height="568" />
 
- 3. Select a publish target to “Microsoft Azure App Service” since we would
+3. Select a publish target to “Microsoft Azure App Service” since we would
     be publishing a WebApp to Azure App Service.
 
     <img src="./media/image4.png" width="427" height="336" />
 
- 4. Upon selecting the publish target to Microsoft Azure App Service, you
+4. Upon selecting the publish target to Microsoft Azure App Service, you
    will get a new window to fill in the information for publishing. On the
    top right corner, you can manage your Azure accounts. Select one of the
    account that you wish to host against and click on “New” to create a new
    Resource group.
 
-     <img src="./media/image5.png" width="536" height="401" />
+      <img src="./media/image5.png" width="536" height="401" />
 
-      Also you can see, at this moment we have no resource group created on
-     Azure-
+      Also you can see, at this moment we have no resource group created on Azure-
 
-     <img src="./media/image6.png" width="457" height="269" />
+      <img src="./media/image6.png" width="457" height="269" />
 
 5. Upon clicking “New”, you will get another window to configure the App
     Service Plan.
