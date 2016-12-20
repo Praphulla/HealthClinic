@@ -72,8 +72,8 @@ and try deploying the same.
 
 <img src="./media/image5.png" width="536" height="401" />
 
-Also you can see, at this moment we have no resource group created on
-Azure-
+ Also you can see, at this moment we have no resource group created on
+ Azure-
 
 <img src="./media/image6.png" width="457" height="269" />
 
@@ -115,51 +115,51 @@ Azure-
 1. With the previous steps, you generated the Azure resources for your
     deployments.
 
-In your solution explorer, right click on the MyHealth.Web and click
-Publish. You will see Publish Web dialog box. The wizard shows you a
-list of available Publish Profiles. If you select Microsoft Azure App
-Service, you can see a list of available subscriptions and the resource
-groups that were previously created. Select the resource group that you
-created to deploy the web application.
+1. In your solution explorer, right click on the MyHealth.Web and click
+ Publish. You will see Publish Web dialog box. The wizard shows you a
+ list of available Publish Profiles. If you select Microsoft Azure App
+ Service, you can see a list of available subscriptions and the resource
+ groups that were previously created. Select the resource group that you
+ created to deploy the web application.
 
 <img src="./media/image14.png" width="596" height="445" />
 
-After you select the resource group, the page that opens shows the
-connection information. The default parameters will populate the fields.
-You can modify these fields if required or leave it as it is. To test
-that the connection works correctly, click on Validate Connection.
+1. After you select the resource group, the page that opens shows the
+ connection information. The default parameters will populate the fields.
+ You can modify these fields if required or leave it as it is. To test
+ that the connection works correctly, click on Validate Connection.
 
 <img src="./media/image15.png" width="545" height="429" />
 
-In the **Settings** page, you can configure the deployment type
-depending on whether you require in a Debug/Release mode. You can check
-the box for using default connection string at run time.
+1. In the **Settings** page, you can configure the deployment type
+ depending on whether you require in a Debug/Release mode. You can check
+ the box for using default connection string at run time.
 
 <img src="./media/image16.png" width="553" height="438" />
 
-On the last page, Preview, you can determine the changes that affect the
-Azure environment.
+1. On the last page, Preview, you can determine the changes that affect the
+ Azure environment.
 
 <img src="./media/image17.png" width="474" height="374" />
 
-At last, click Publish. The **Output** window displays information about
-the deployment. When it’s completed, it displays a successful message.
+1. At last, click Publish. The **Output** window displays information about
+ the deployment. When it’s completed, it displays a successful message.
 
 <img src="./media/image18.png" width="624" height="331" />
 
-You can see the website in the browser that will open.
+1. You can see the website in the browser that will open.
 
 <img src="./media/image19.png" width="624" height="335" />
 
-When you go back to your Azure portal and see, you have all the
-resources that was created and published from your Visual Studio.
+1. When you go back to your Azure portal and see, you have all the
+ resources that was created and published from your Visual Studio.
 
 <img src="./media/image20.png" width="376" height="270" />
 
-Once the app is running fine, you can verify by doing some changes to
-the UI. So that you make sure that your app is actually running in Azure
-App Service. To open remote files, go to your server explorer from
-Visual Studio.
+1. Once the app is running fine, you can verify by doing some changes to
+ the UI. So that you make sure that your app is actually running in Azure
+ App Service. To open remote files, go to your server explorer from
+ Visual Studio.
 
 Login to your Azure from Server Explorer. Expand the node Azure &gt; App
 Service &gt; YOUR RESOURCE GROUP &gt; YOUR WEBAPP &gt; Files &gt; Views
