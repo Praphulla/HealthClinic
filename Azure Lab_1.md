@@ -162,7 +162,7 @@ and try deploying the same.
  Service &gt; YOUR RESOURCE GROUP &gt; YOUR WEBAPP &gt; Files &gt; Views
  &gt; Index.cshtml and replace the line as below
 
-`<li><a asp-controller="Account" asp-action="Login">Secret area</a></li> with <li><a asp-controller="Account" asp-action="Login">Secret area</a></li>`
+     `<li><a asp-controller="Account" asp-action="Login">Secret area</a></li> with <li><a asp-controller="Account" asp-action="Login">Secret area</a></li>`
 
 22. Save the changes and refresh the browser. You should see the changes
  reflecting in the site now.
