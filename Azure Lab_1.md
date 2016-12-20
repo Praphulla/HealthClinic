@@ -1,5 +1,4 @@
-[Module 9: Deploy an ASP.NET web app in Azure App
-Service](https://github.com/hsachinraj/DevOps-Immersion-Labs)
+#[Module 9: Deploy an ASP.NET web app in Azure App Service](https://github.com/hsachinraj/DevOps-Immersion-Labs)
 
 In this module we would see how to deploy an ASP.NET Web Application to
 Azure App Service using Visual Studio 2015.
@@ -11,13 +10,13 @@ web and mobile apps for any platform or device. Integrate your apps with
 SaaS solutions, connect with on-premises applications, and automate your
 business processes.
 
-The following illustration shows the completed application:
+###The following illustration shows the completed application:
 
 <img src="./media/image1.png" width="501" height="328" />
 
-Pre-Requisites to complete this lab:
+##Pre-Requisites to complete this lab:
 
-1.  Visual Studio 2015 (download from
+ 1.  Visual Studio 2015 Update 3(download from
     [here](https://www.visualstudio.com/downloads/))
 
 2.  Active Azure Account
@@ -32,15 +31,15 @@ Since we already have the source code in the repo we could use the same
 for our Azure App Service deployment. You can also create your own app
 and try deploying the same.
 
-Load the “01\_Demos\_ASPNET5.sln” from your Visual Studio and wait until
+1. Load the “01\_Demos\_ASPNET5.sln” from your Visual Studio and wait until
 the package restoration is complete. If any issues found, try the below
 workarounds-
 
-1.  Clean the solution and try to rebuild, which should work fine. Also
+    1. Clean the solution and try to rebuild, which should work fine. Also
     make sure you have connected to the internet while restoring the
     packages as these would get downloaded over the internet
 
-2.  Close your Visual Studio and try to clear the temp of your system
+    2. Close your Visual Studio and try to clear the temp of your system
     and reload the solution, which should work fine.
 
 > Note: Make sure you have the dev environment setup properly as
@@ -53,14 +52,14 @@ workarounds-
 
 <img src="./media/image2.png" width="514" height="289" />
 
-Right click on “MyHealth.Web” and select “publish”. You will see a new
+2. Right click on “MyHealth.Web” and select “publish”. You will see a new
 window automatically open to indicate that the resources will be created
 in Azure, which will host all application resources. Fill in the
 required information and make sure to change the type to Web App.
 
 <img src="./media/image3.png" width="624" height="568" />
 
-Select a publish target to “Microsoft Azure App Service” since we would
+3. Select a publish target to “Microsoft Azure App Service” since we would
 be publishing a WebApp to Azure App Service.
 
 <img src="./media/image4.png" width="427" height="336" />
