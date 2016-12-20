@@ -27,7 +27,7 @@ business processes.
 4.  Microsoft Web Deploy (download from
     [here](https://www.microsoft.com/en-us/download/details.aspx?id=43717))
 
-Since we already have the source code in the repo we could use the same
+Since we already have the source code in the [repo](https://github.com/hsachinraj/DevOps-Immersion-Labs/tree/master/source) we could use the same
 for our Azure App Service deployment. You can also create your own app
 and try deploying the same.
 
