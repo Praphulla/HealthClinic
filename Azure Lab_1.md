@@ -32,8 +32,8 @@ for our Azure App Service deployment. You can also create your own app
 and try deploying the same.
 
 1. Load the “01\_Demos\_ASPNET5.sln” from your Visual Studio and wait until
-the package restoration is complete. If any issues found, try the below
-workarounds-
+    the package restoration is complete. If any issues found, try the below
+    workarounds-
 
     1. Clean the solution and try to rebuild, which should work fine. Also
     make sure you have connected to the internet while restoring the
@@ -53,22 +53,22 @@ workarounds-
 <img src="./media/image2.png" width="514" height="289" />
 
 2. Right click on “MyHealth.Web” and select “publish”. You will see a new
-window automatically open to indicate that the resources will be created
-in Azure, which will host all application resources. Fill in the
-required information and make sure to change the type to Web App.
+    window automatically open to indicate that the resources will be created
+    in Azure, which will host all application resources. Fill in the
+    required information and make sure to change the type to Web App.
 
 <img src="./media/image3.png" width="624" height="568" />
 
 3. Select a publish target to “Microsoft Azure App Service” since we would
-be publishing a WebApp to Azure App Service.
+    be publishing a WebApp to Azure App Service.
 
 <img src="./media/image4.png" width="427" height="336" />
 
-Upon selecting the publish target to Microsoft Azure App Service, you
-will get a new window to fill in the information for publishing. On the
-top right corner, you can manage your Azure accounts. Select one of the
-account that you wish to host against and click on “New” to create a new
-Resource group.
+1. Upon selecting the publish target to Microsoft Azure App Service, you
+    will get a new window to fill in the information for publishing. On the
+    top right corner, you can manage your Azure accounts. Select one of the
+    account that you wish to host against and click on “New” to create a new
+    Resource group.
 
 <img src="./media/image5.png" width="536" height="401" />
 
@@ -77,43 +77,43 @@ Azure-
 
 <img src="./media/image6.png" width="457" height="269" />
 
-Upon clicking “New”, you will get another window to configure the App
-Service Plan.
+1. Upon clicking “New”, you will get another window to configure the App
+    Service Plan.
 
 <img src="./media/image7.png" width="318" height="356" />
 
-Upon filling out the required information, click on “Services” to add a
-new service.
+1. Upon filling out the required information, click on “Services” to add a
+    new service.
 
 <img src="./media/image8.png" width="476" height="353" />
 
-You will get a new window when clicked on services. Your web application
-will have a SQL database in the future, so fill out the required
-information to configure SQL Server as shown-
+1. You will get a new window when clicked on services. Your web application
+    will have a SQL database in the future, so fill out the required
+    information to configure SQL Server as shown-
 
 <img src="./media/image9.png" width="316" height="355" />
 
-Configure SQL database as shown-
+1. Configure SQL database as shown-
 
 <img src="./media/image10.png" width="346" height="392" />
 
-Finally, you should see the services upon configured-
+1. Finally, you should see the services upon configured-
 
 <img src="./media/image11.png" width="420" height="315" />
 
-Click on create so that the deployment starts by spinning up all those
-resources on Azure. You can see at the bottom of the window which shows
-the status of your deployments.
+1. Click on create so that the deployment starts by spinning up all those
+    resources on Azure. You can see at the bottom of the window which shows
+    the status of your deployments.
 
 <img src="./media/image12.png" width="444" height="332" />
 
-Once successfully created, you should see the resources in your Visual
-Studio “Server Explorer”.
+1. Once successfully created, you should see the resources in your Visual
+    Studio “Server Explorer”.
 
 <img src="./media/image13.png" width="471" height="338" />
 
-With the previous steps, you generated the Azure resources for your
-deployments.
+1. With the previous steps, you generated the Azure resources for your
+    deployments.
 
 In your solution explorer, right click on the MyHealth.Web and click
 Publish. You will see Publish Web dialog box. The wizard shows you a
@@ -183,11 +183,11 @@ should see the new window as shown-
 
 <img src="./media/image22.png" width="465" height="349" />
 
-Publish the debug files so that you can show remote debugging-
+1. Publish the debug files so that you can show remote debugging-
 
 <img src="./media/image23.png" width="478" height="379" />
 
-Click on Publish. From your Visual Studio, go to **Debug** &gt; click
+1. Click on Publish. From your Visual Studio, go to **Debug** &gt; click
 **Attach to Process,** enter the azure websites URL along with its port
 and select dnx.exe process
 
@@ -195,7 +195,7 @@ and select dnx.exe process
 
 <img src="./media/image25.png" width="459" height="311" />
 
-Finally, from your Server Explorer &gt; App Service node, attach the
+1. Finally, from your Server Explorer &gt; App Service node, attach the
 debugger. Refresh the browser and you would be hitting your breakpoint
 wherever you would have set. And that’s how you gonna remote debug
 ASP.NET apps on Azure. To learn more about remote debugging, see [Remote
