@@ -40,7 +40,7 @@ and try deploying the same.
     2. Close your Visual Studio and try to clear the temp of your system
     and reload the solution, which should work fine.
 
-    > Note: Make sure you have the dev environment setup properly as
+    > <b>Note</b>: Make sure you have the dev environment setup properly as
     > discussed in the pre-requisites section of this lab or you may end up
     > with issues.
     >
@@ -162,10 +162,7 @@ Login to your Azure from Server Explorer. Expand the node Azure &gt; App
 Service &gt; YOUR RESOURCE GROUP &gt; YOUR WEBAPP &gt; Files &gt; Views
 &gt; Index.cshtml and replace the line as below
 
-*&lt;li&gt;&lt;a asp-controller="Account" asp-action="Login"&gt;Secret
-area&lt;/a&gt;&lt;/li&gt;* with *&lt;li&gt;&lt;a
-asp-controller="Account" asp-action="Login"&gt;Secret
-area&lt;/a&gt;&lt;/li&gt;*
+`<li><a asp-controller="Account" asp-action="Login">Secret area</a></li> with <li><a asp-controller="Account" asp-action="Login">Secret area</a></li>`
 
 Save the changes and refresh the browser. You should see the changes
 reflecting in the site now.
