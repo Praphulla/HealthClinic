@@ -31,9 +31,7 @@ Since we already have the source code in the repo we could use the same
 for our Azure App Service deployment. You can also create your own app
 and try deploying the same.
 
-1.Load the “01\_Demos\_ASPNET5.sln” from your Visual Studio and wait until
-    the package restoration is complete. If any issues found, try the below
-    workarounds-
+1. Load the “01\_Demos\_ASPNET5.sln” from your Visual Studio and wait until the package restoration is complete. If any issues found, try the below workarounds-
 
     1. Clean the solution and try to rebuild, which should work fine. Also
     make sure you have connected to the internet while restoring the
@@ -42,17 +40,17 @@ and try deploying the same.
     2. Close your Visual Studio and try to clear the temp of your system
     and reload the solution, which should work fine.
 
-> Note: Make sure you have the dev environment setup properly as
-> discussed in the pre-requisites section of this lab or you may end up
-> with issues.
->
-> Upon loading the solution, do a local build to make sure that your
-> application works fine without any issues and you should see your app
-> running locally.
+    > Note: Make sure you have the dev environment setup properly as
+    > discussed in the pre-requisites section of this lab or you may end up
+    > with issues.
+    >
+    > Upon loading the solution, do a local build to make sure that your
+    > application works fine without any issues and you should see your app
+    > running locally.
 
 <img src="./media/image2.png" width="514" height="289" />
 
-2.Right click on “MyHealth.Web” and select “publish”. You will see a new
+2. Right click on “MyHealth.Web” and select “publish”. You will see a new
     window automatically open to indicate that the resources will be created
     in Azure, which will host all application resources. Fill in the
     required information and make sure to change the type to Web App.
@@ -64,7 +62,7 @@ and try deploying the same.
 
 <img src="./media/image4.png" width="427" height="336" />
 
-1.Upon selecting the publish target to Microsoft Azure App Service, you
+1. Upon selecting the publish target to Microsoft Azure App Service, you
     will get a new window to fill in the information for publishing. On the
     top right corner, you can manage your Azure accounts. Select one of the
     account that you wish to host against and click on “New” to create a new
