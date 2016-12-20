@@ -16,7 +16,7 @@ business processes.
 
 ##Pre-Requisites to complete this lab:
 
- 1.  Visual Studio 2015 Update 3(download from
+1.  Visual Studio 2015 Update 3(download from
     [here](https://www.visualstudio.com/downloads/))
 
 2.  Active Azure Account
