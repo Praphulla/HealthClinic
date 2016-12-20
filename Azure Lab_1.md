@@ -48,19 +48,19 @@ and try deploying the same.
     > application works fine without any issues and you should see your app
     > running locally.
 
-<img src="./media/image2.png" width="514" height="289" />
+    <img src="./media/image2.png" width="514" height="289" />
 
  2. Right click on “MyHealth.Web” and select “publish”. You will see a new
     window automatically open to indicate that the resources will be created
     in Azure, which will host all application resources. Fill in the
     required information and make sure to change the type to Web App.
 
-<img src="./media/image3.png" width="624" height="568" />
+    <img src="./media/image3.png" width="624" height="568" />
 
  3. Select a publish target to “Microsoft Azure App Service” since we would
     be publishing a WebApp to Azure App Service.
 
-<img src="./media/image4.png" width="427" height="336" />
+    <img src="./media/image4.png" width="427" height="336" />
 
  4. Upon selecting the publish target to Microsoft Azure App Service, you
    will get a new window to fill in the information for publishing. On the
