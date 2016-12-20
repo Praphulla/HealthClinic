@@ -158,42 +158,40 @@ and try deploying the same.
  App Service. To open remote files, go to your server explorer from
  Visual Studio.
 
-Login to your Azure from Server Explorer. Expand the node Azure &gt; App
-Service &gt; YOUR RESOURCE GROUP &gt; YOUR WEBAPP &gt; Files &gt; Views
-&gt; Index.cshtml and replace the line as below
+21. Login to your Azure from Server Explorer. Expand the node Azure &gt; App
+ Service &gt; YOUR RESOURCE GROUP &gt; YOUR WEBAPP &gt; Files &gt; Views
+ &gt; Index.cshtml and replace the line as below
 
 `<li><a asp-controller="Account" asp-action="Login">Secret area</a></li> with <li><a asp-controller="Account" asp-action="Login">Secret area</a></li>`
 
-Save the changes and refresh the browser. You should see the changes
-reflecting in the site now.
+22. Save the changes and refresh the browser. You should see the changes
+ reflecting in the site now.
 
-   <img src="./media/image21.png" width="624" height="333" />
+    <img src="./media/image21.png" width="624" height="333" />
 
-We can also remote debug our application from Azure within our Visual
-Studio.
+23. We can also remote debug our application from Azure within our Visual Studio.
 
-Put a breakpoint in your code and Right click and select Publish. You
-should see the new window as shown-
+ Put a breakpoint in your code and Right click and select Publish. You should see the new window as shown-
 
-  <img src="./media/image22.png" width="465" height="349" />
+    <img src="./media/image22.png" width="465" height="349" />
 
-21. Publish the debug files so that you can show remote debugging-
+24. Publish the debug files so that you can show remote debugging-
 
     <img src="./media/image23.png" width="478" height="379" />
 
-22. Click on Publish. From your Visual Studio, go to **Debug** &gt; click
-**Attach to Process,** enter the azure websites URL along with its port
-and select dnx.exe process
+25. Click on Publish. From your Visual Studio, go to **Debug** &gt; click
+ **Attach to Process,** enter the azure websites URL along with its port
+ and select dnx.exe process
 
    <img src="./media/image24.png" width="465" height="352" />
 
    <img src="./media/image25.png" width="459" height="311" />
 
-23. Finally, from your Server Explorer &gt; App Service node, attach the
-debugger. Refresh the browser and you would be hitting your breakpoint
-wherever you would have set. And that’s how you gonna remote debug
-ASP.NET apps on Azure. To learn more about remote debugging, see [Remote
-Debug ASP .NET Core Apps on
-Azure](https://blogs.msdn.microsoft.com/webdev/2016/03/21/remote-debug-aspnet-core-on-azure/)
+26. Finally, from your Server Explorer &gt; App Service node, attach the
+ debugger. Refresh the browser and you would be hitting your breakpoint
+ wherever you would have set. And that’s how you gonna remote debug
+ ASP.NET apps on Azure. To learn more about remote debugging, see [Remote
+ Debug ASP .NET Core Apps on
+ Azure](https://blogs.msdn.microsoft.com/webdev/2016/03/21/remote-debug-aspnet-core-on-azure/)
 
-<img src="./media/image26.png" width="501" height="353" />
+  <img src="./media/image26.png" width="501" height="353" />
